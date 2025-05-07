@@ -1,0 +1,340 @@
+body {
+    margin: 0;
+    /* padding: 0; */
+    /* font-family: 'Inter', sans-serif; */
+    /* text-align: justify; */
+    font-size: 16px;
+    line-height: 1.2;
+    /* padding: 20px 50px 150px 80px;  */
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#intro{
+    
+    display: flex;
+    align-items: center;
+    padding: 20px 50px 20px 80px;
+    /* flex-direction: row; */
+    /* font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal; */
+}
+
+.logo{
+    flex-grow: 1;
+    padding-right: 0;
+}
+.main-nav{
+    display:inline-flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    align-items: center;
+}
+.nav-bar {
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-evenly;
+    margin-left: auto;
+    padding-right: 10px;
+    align-items: center;
+    /* font-family: "Open Sans", sans-serif; */
+    flex-grow: 2;
+}
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 8px 12px;
+    width: 300px;
+    background-color: #f9f9f9;
+    flex-grow: 3;
+}
+
+
+/* Search icon styling */
+.search-container .icon {
+    font-size: 18px;
+    color: #888;
+    margin-right: 8px;
+}
+
+/* Input styling */
+.search-container input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    color:#333;
+    background-color: #f9f9f9;
+}
+
+/* Button styling */
+.search-container .explore-btn {
+    background-color: #e6fffa;
+    border: 1px solid #5ec2b5;
+    border-radius: 20px;
+    color: #33a089;
+    padding: 4px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+/* Dropdown arrow styling */
+.search-container .explore-btn .arrow {
+    margin-left: 4px;
+    font-size: 10px;
+}
+
+.nav1 input[type="submit"]{
+    border-radius: 12px;
+    padding:8px 10px;
+    border: 2px solid transparent;
+    color: azure;
+    /* font-size: 12px; */
+    /* font-weight: 600; */
+    background-color:#10B981;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+
+
+
+#footer{
+    padding-top: 50px;
+    background-color: #111;
+    display: flex;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #ccc;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.third{
+    
+        /* justify-content: center; */
+        align-items: center;
+        text-align: left;
+}
+
+.footer-links{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    /* padding-right: 100px; */
+}
+
+.footer-links li{
+    padding-bottom: 20px;
+    
+}
+
+
+
+.subscription-box {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    background-color: #111;
+    margin: 0;
+}
+
+.subscription-box input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 4px 0 0 4px;
+    width: 250px;
+}
+
+.subscription-box button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    transition: background-color 0.3s;
+}
+
+.subscription-box button:hover {
+    background-color: #218838;
+}
+
+.headers{
+    padding: 10px 120px 30px 120px;
+    background-color:#C4B5FD;
+    text-align: center;
+}
+
+.headers h2{
+    font-size:75px;
+    margin-bottom: 0;
+}
+
+.headers p{
+    font-size: 25px;
+    font-weight: 300;
+    line-height: normal;
+}
+
+#filters{
+    padding: 50px 120px 20px 320px;
+    display: flex;
+    flex-direction: row;
+    background-color: #93C5FD;
+}
+
+/* Container styling */
+.f-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 200px; /* Adjust width as needed */
+    padding-right: 30px;
+}
+/* Label styling */
+.f-1 label {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Select box styling */
+.f-1 select {
+    padding: 20px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 40px;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+    
+}
+
+/* Hover effect */
+.f-1 select:hover {
+    border-color: #888;
+}
+
+/* Focus effect */
+.f-1 select:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.3);
+}
+
+
+#tutor-desc{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    padding: 50px 120px 20px 120px;
+    align-items: center;
+    background-color: #93C5FD;
+}
+.tutor-card {
+    
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 20px;
+    width: 800px;
+}
+
+.profile-image img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.tutor-details h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.tutor-details p {
+    color: #666;
+    font-size: 1em;
+    margin-top: 5px;
+    margin-right: 12px;
+}
+
+.tutor-info {
+    padding-left: 20px;
+    margin-left: auto;
+    text-align: right;
+}
+
+.hourly-rate {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.old-rate {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 5px;
+}
+
+.rating {
+    color: #f5c518;
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.reviews,
+.lessons {
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 3px;
+}
+
+.explore{
+    padding: 20px 50px 80px 80px;
+    text-align: center;
+    background-color: #93C5FD;
+}
+
+.explore input[type="submit"]{
+    border-radius: 12px;
+    padding:8px 10px;
+    border: 2px solid transparent;
+    background-color: #10B981;
+    color: azure;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    /* align-items: center; */
+}
